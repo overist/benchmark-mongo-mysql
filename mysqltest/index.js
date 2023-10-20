@@ -25,7 +25,7 @@ const config = {
         "createdat DATETIME)"
     );
 
-    const chunkSize = 100;
+    const chunkSize = 20000;
     for (let i = 1; i <= INSERT_DATA_COUNT; i += chunkSize) {
       const values = [];
       for (let j = i; j < i + chunkSize; j++) {
