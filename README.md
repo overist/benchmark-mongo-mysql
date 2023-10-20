@@ -15,27 +15,27 @@
 **mongo db**
 
 ```
-cd mongotest
-docker-compose up -d // create docker, need volume path setting
-node index.js // insert data
-node create-index.js // set db index
+$ cd mongotest
+$ docker-compose up -d // create docker, need volume path setting
+$ node index.js // insert data
+$ node create-index.js // set db index
 ```
 
 **mysql db**
 
 ```
-cd mysqltest
-docker-compose up -d // create docker, need volume path setting
-node index.js // insert data
-node create-index.js // set db index
+$ cd mysqltest
+$ docker-compose up -d // create docker, need volume path setting
+$ node index.js // insert data
+$ node create-index.js // set db index
 ```
 
 ### web server
 
 ```
-cd express-sample
-yarn install
-yarn start
+$ cd express-sample
+$ yarn install
+$ yarn start
 ```
 
 ### testing
